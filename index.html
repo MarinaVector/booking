@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Аренда недвижимости в&nbsp;Крыму</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+  <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+  <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="krim-project">
+
+  <header>
+    <div class="menu-bar py-1 px-1">
+      <div class="container">
+        <div class="row justify-content-start align-items-center">
+          <div class="col-xl-8">
+            <a class="krim_Leto_ru" href="#">
+              <span class="logo">Krim-leto.ru</span>
+            </a>
+          </div>
+          <div class="col-xl-1">
+            <a class="link-page navigation-item-link sign-in" href="#">Войти</a>
+          </div>
+
+          <div class="col-xl-3">
+            <button class="btn px-4 d-inline-block navigation-item-button">Добавить объявление</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="header py-5 header-background">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-12 pt-5">
+                <h1 class="header__title">Отдых в Крыму</h1>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6">
+                <p class="header__text">Lorem Ipsum is&nbsp;simply dummy text of&nbsp;the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s, when an&nbsp;unknown printer took a&nbsp;galley</p>
+              </div>
+            </div>
+          </div>
+          <div class="container pb-5 mb-5">
+            <div class="form-serch form-row pb-5 align-items-center">
+              <div class="col-xl-2">
+                <input type="text" class="form-control" id="input_nav" placeholder="Куда вы&nbsp;едете?">
+              </div>
+              <div class="col-xl-2">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Дата заезда">
+                  <div class="input-group-append">
+                    <button class="btn btn_date" type="button">
+                      <i class="far fa-calendar-alt"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Дата выезда">
+                  <div class="input-group-append">
+                    <button class="btn btn_date" type="button">
+                      <i class="far fa-calendar-alt"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2">
+                <input type="text" class="form-control" id="input_guests" placeholder="Кол-во гостей">
+              </div>
+              <div class="col-xl-2">
+                <button type="submit" class="btn px-4 choice__button ">Подобрать</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 pt-5">
+            <h2 class="about__title">Типы размещения</h2>
+            <div class="col-xl-4 line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <ul class="objects d-flex justify-content-around">
+            <li class="objects__category col-xl-4 offset-md-4">
+              <a href="#" class="objects__category__type btn btn-outline-secondary btn-lg btn-block" role="button" aria-pressed="true">Гостиницы и&nbsp;отели</a>
+            </li>
+            <li class="objects__category col-xl-4">
+              <a href="#" class="objects__category__type btn btn-outline-secondary btn-lg btn-block" role="button" aria-pressed="true">Гостевые дома</a>
+            </li>
+            <li class="objects__category col-xl-4">
+              <a href="#" class="objects__category__type btn btn-outline-secondary btn-lg btn-block" role="button" aria-pressed="true">Частный сектор</a>
+            </li>
+            <li class="objects__category col-xl-4">
+              <a href="#" class="objects__category__type btn btn-outline-secondary btn-lg btn-block" role="button" aria-pressed="true">Квартиры посуточно</a>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8">
+            <div class="row">
+
+              <div class="towns-group d-flex justify-content-between col-xl-12">
+                <div class="col-xl-2">
+                  <h3 class="about_h3"> <a class="town" href="#">Алупка</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Алушта</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Балаклава</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Береговое</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Гаспра</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Гурзуф</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Евпатория</a></h3>
+                </div>
+
+                <div class="col-xl-2">
+                  <h3 class="about_h3"> <a class="town" href="#">Керчь&nbsp;Коктебель</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Межводное</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Мисхор</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Николаевка</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Новофедоровка</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Новый Свет</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Оленевка </a></h3>
+                </div>
+                <div class="col-xl-2">
+                  <h3 class="about_h3"> <a class="town" href="#">Орджоникидзе</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Отрадное</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Партенит</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Песчаное</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Саки</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Севастополь</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Симеиз</a></h3>
+                </div>
+                <div class="col-xl-2">
+                  <h3 class="about_h3"> <a class="town" href="#">Судак</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Феодосия</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Форос</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Черноморское</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Штормовое</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Щелкино</a></h3>
+                  <h3 class="about_h3"> <a class="town" href="#">Ялта</a></h3>
+                </div>
+
+
+              </div>
+
+              <div class="col-xl-12">
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do&nbsp;eiusmod tempor incididunt ut&nbsp;labore et&nbsp;dolore magna aliqua. Ut&nbsp;enim ad&nbsp;minim veniam, quis nostrud exercitation ullamco laboris nisi ut&nbsp;aliquip ex&nbsp;ea&nbsp;commodo consequat. Duis aute irure dolor in&nbsp;reprehenderit in&nbsp;voluptate velit esse cillum dolore eu&nbsp;fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in&nbsp;culpa qui officia deserunt mollit anim id&nbsp;est laborum. Sed ut&nbsp;perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab&nbsp;illo inventore veritatis et&nbsp;quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&nbsp;labore et&nbsp;dolore magnam aliquam quaerat voluptatem.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-xl-4 align-self-end">
+            <p> <img src="images/shadow.png" width="417" height="557" alt="Бронирования в Крыму">
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+
+    <section class="cards py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <h2 class="about__title">Популярные бронирования</h2>
+            <div class="col-xl-4 line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-group">
+        <div class="container">
+          <div class="row">
+            <div class="d-flex justify-content-between">
+              <div class="col-xl-3 card cards__popular__object">
+                <img src="images/hotel4.png" class="card-img-top object-image" alt="Объект в Крыму" width="255" height="225">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Название объекта</h5>
+                  <p class="cards__popular__object__adress text-center">г. Ялта, ул. Названия, д.12</p>
+                  <div class="info d-flex justify-content-between">
+                    <p class="card-text">
+                      <small class="cards__popular__object__price">от&nbsp;1250 руб</small></p>
+                    <p class="cards__popular__object__guest">до&nbsp;4&nbsp;гостей</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 card cards__popular__object">
+                <img src="images/hotel3.png" class="card-img-top object-image" alt="..." width="255" height="225">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Название объекта</h5>
+                  <div class="cards__popular__object__adress text-center">г. Ялта, ул. Названия, д.12</div>
+                  <div class="info d-flex justify-content-between">
+                    <div class="card-text">
+                      <small class="cards__popular__object__price">от&nbsp;1250 руб</small></div>
+                    <div class="cards__popular__object__guest">до&nbsp;4&nbsp;гостей</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 card cards__popular__object">
+                <img src="images/hotel2.png" class="card-img-top object-image" alt="..." width="255" height="225">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Название объекта</h5>
+                  <p class="cards__popular__object__adress text-center">г. Ялта, ул. Названия, д.12</p>
+                  <div class="info d-flex justify-content-between">
+                    <p class="card-text">
+                      <small class="cards__popular__object__price">от&nbsp;1250 руб</small></p>
+                    <p class="cards__popular__object__guest">до&nbsp;4&nbsp;гостей</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 card cards__popular__object">
+                <img src="images/hotel1.png" class="card-img-top object-image" alt="..." width="255" height="225">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Название объекта</h5>
+                  <p class="cards__popular__object__adress text-center">г. Ялта, ул. Названия, д.12</p>
+                  <div class="info d-flex justify-content-between">
+                    <p class="card-text">
+                      <small class="cards__popular__object__price">от&nbsp;1250 руб</small></p>
+                    <p class="cards__popular__object__guest ">до&nbsp;4&nbsp;гостей</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="articles" id="articles">
+
+
+
+      <div class="container">
+        <article class="seo-block">
+          <h2 class="about__title">Отдых в&nbsp;Крыму SEO block</h2>
+          <div class="line"></div>
+          <div class="row seo-block">
+            <div class="col-xl-6">
+
+              <p class="seo-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do&nbsp;eiusmod tempor incididunt ut&nbsp;labore et&nbsp;dolore magna aliqua. Ut&nbsp;enim ad&nbsp;minim veniam, quis nostrud exercitation ullamco laboris nisi ut&nbsp;aliquip ex&nbsp;ea&nbsp;commodo consequat. Duis aute irure dolor in&nbsp;reprehenderit in&nbsp;voluptate velit esse cillum dolore eu&nbsp;fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in&nbsp;culpa qui officia deserunt mollit anim id&nbsp;est laborum. Sed ut&nbsp;perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab&nbsp;illo inventore veritatis et&nbsp;quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&nbsp;labore et&nbsp;dolore magnam aliquam quaerat voluptatem.</p>
+            </div>
+            <div class="col-xl-5">
+              <img src="images/more.png" class="offset-md-1" alt="Крымские скалы" width="510" height="324">
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-6">
+
+                  <img src="images/buhta2.png" class="align-self-end" alt="Крымская бухта" width="555" height="235">
+                  <h2 class="seo-article pt-1">Название статьи</h2>
+                </div>
+
+                <div class="col-xl-6">
+
+                  <img src="images/buhta.png" class="align-self-end" alt="Крымcкое побережье" width="555" height="235">
+                  <h2 class="seo-article pt-1">Название статьи</h2>
+                </div>
+
+
+
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-4 mx-auto pt-3 pb-5">
+                  <a href="" class="btn btn-large px-5 py-2 choice__button ">Больше информации</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-info mt-3">
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div class="col-xl-6">
+          <a class="down-logo" href="#">
+            <span class="logofooter">Krim-leto.ru</span>
+          </a>
+
+          <div class="footer-info footer-doc">© 2009 — 2019 г.</div>
+        </div>
+        <div class="col-xl-3">
+          <div class="py-0 mt-0 footer-info"><a href="" class="footer-doc footer-feed">Отзывы владельцев о&nbsp;рекламе</a></div>
+          <div class="py-0 mt-0 footer-info"><a href="" class="footer-doc footer-serv">Наши услуги</a></div>
+          <div class="py-0 mt-0 footer-info"><a href="" class="footer-doc footer-user">Пользовательское соглашение</a>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="py-0 mt-0footer-info"><a href="" class="footer-doc footer-conf">Политика конфиденциальности</a>
+          </div>
+          <div class="py-0 mt-0 footer-info"><a href="" class="footer-doc footer-contract">Договор оферты</a>
+          </div>
+          <div class="py-0 mt-0 footer-info"><a href="" class="footer-doc footer-contakt">Контакты</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

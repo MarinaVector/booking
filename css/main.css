@@ -1,0 +1,338 @@
+@import 'fonts.css';
+
+body {
+  position: relative;
+}
+
+
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a:hover {
+
+  text-decoration: none;
+}
+
+a:active,
+a:focus {
+  outline: none;
+}
+
+input[type="text"]:active {
+  visibility: hidden;
+}
+
+
+.logo {
+  color: #111;
+  background: #fff;
+  mix-blend-mode: lighten;
+}
+
+logo:hover {
+  outline: none;
+}
+
+.krim_Leto_ru {
+  font-size: 36px;
+  font-family: "Gilroy";
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(to right, rgb(0, 49, 95) 0%, rgb(0, 49, 95)77.5%, rgb(218, 111, 91) 77.5%, rgb(218, 111, 91) 99%);
+  text-decoration: none;
+}
+
+.navigation-item-link {
+  font-family: "Gilroy";
+  color: #212324;
+  font-size: 18px;
+}
+
+.menu__item a:hover {
+  text-decoration: none;
+  color: #332599;
+}
+
+.navigation-item-button {
+  font-family: "Gilroy";
+  font-size: 18px;
+  border-color: rgb(218, 111, 91);
+  border-style: solid;
+  background: white;
+}
+
+.header {
+  background-size: cover;
+  color: white;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/foto-header.png);
+}
+
+.header__title {
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+
+.krim-project {
+  font-family: "Gilroy";
+}
+
+.choice {
+  margin-top: 16px;
+}
+
+.form-serch {
+  margin-top: 18px;
+}
+
+.choice__button {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(218, 111, 91);
+  border-color: rgb(218, 111, 91);
+  border-style: solid;
+}
+
+.about__title {
+  font-family: "Gilroy";
+  font-size: 36px;
+  color: rgb(33, 35, 36);
+  font-weight: bold;
+}
+
+.line {
+  border-bottom: 2px solid rgb(218, 111, 91);
+  margin: 10px 0;
+}
+
+.objects {}
+
+.towns-group {
+  margin-top: 5px;
+  margin-bottom: 28px;
+}
+
+.town {
+  font-family: "Gilroy";
+  font-size: 16px;
+  color: rgb(38, 142, 194);
+  font-weight: normal;
+}
+
+.about_h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.text {
+  margin-top: 0;
+  font-size: 16px;
+  color: rgb(33, 35, 36);
+  line-height: 1.5;
+  width: 746px;
+  height: 256px;
+}
+
+.objects {
+  margin-top: 20px;
+  margin-bottom: 34px;
+}
+
+.objects__category__type {
+  font-size: 18px;
+  font-family: "Gilroy";
+  color: rgb(33, 35, 36);
+  border-color: rgb(98, 96, 104);
+  border-style: solid;
+}
+
+.cards {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-image: url(../images/fonmore.png);
+}
+
+.cards__popular__object {
+  background-color: rgb(255, 255, 255);
+  width: 285px;
+  height: 368px;
+  position: relative;
+  margin-top: 36px;
+}
+
+.cards__popular__object:hover {
+  box-shadow: 0px 24px 57px 0px rgb(0, 0, 0);
+}
+
+.object-image {
+  padding-top: 15px;
+}
+
+.cards__popular__object__adress {
+  font-size: 14px;
+  font-family: "Gilroy";
+  color: rgb(33, 35, 36);
+  position: absolute;
+  text-align: center;
+}
+
+.info {
+  margin-top: 36px;
+}
+
+.cards__popular__object__price {
+  font-size: 22px;
+  font-family: "Gilroy";
+  color: rgb(218, 111, 91);
+  font-weight: bold;
+  position: absolute;
+}
+
+.cards__popular__object__guest {
+  font-size: 14px;
+  font-family: "Gilroy";
+  color: rgb(33, 35, 36);
+  margin-top: 6px;
+}
+
+.footer-info {
+  padding: 10px 0;
+  background-color: black;
+}
+
+.seo-block {
+  margin-top: 32px;
+}
+
+.seo-text {
+  font-size: 16px;
+  font-family: "Gilroy";
+  color: rgb(33, 35, 36);
+  line-height: 1.5;
+}
+
+.more-info {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: rgb(218, 111, 91);
+  padding-left: 32px;
+  width: 300px;
+  height: 40px;
+  border-color: rgb(218, 111, 91);
+  border-style: solid;
+  margin-bottom: 78px;
+}
+
+.down-logo {
+  font-size: 36px;
+  font-family: "Gilroy";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-doc {
+  font-size: 16px;
+  font-family: "Gilroy";
+  color: rgb(239, 239, 239);
+  line-height: 1.5;
+}
+
+.seo-article {
+  font-size: 22px;
+  color: rgb(33, 35, 36);
+}
+
+.logofooter {
+  color: black;
+  background: #fff;
+
+  mix-blend-mode: lighten;
+}
+
+.down-logo {
+  background: linear-gradient(to right, rgb(0, 49, 95) 0%, rgb(0, 49, 95)77.5%, rgb(218, 111, 91) 77.5%, rgb(218, 111, 91) 99%);
+  text-decoration: none;
+}
+
+
+.logo {
+  color: black;
+  background: #fff;
+  mix-blend-mode: lighten;
+}
+
+.logo:hover {
+  outline: none;
+}
+
+.krim_Leto_ru {
+  font-size: 36px;
+  font-family: "Gilroy";
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(to right, rgb(0, 49, 95) 0%, rgb(0, 49, 95)77.5%, rgb(218, 111, 91) 77.5%, rgb(218, 111, 91) 99%);
+  text-decoration: none;
+}
+
+.fa,
+.far {
+  color: rgb(218, 111, 91);
+}
+
+.btn_date {
+  background: white;
+  border: solid rgb(207, 210, 213) 1px;
+  border-left: 0;
+}
+
+.Кол_во_гостей {
+  font-size: 16px;
+  font-family: "Gilroy";
+  color: rgb(33, 35, 36);
+  position: absolute;
+  left: 973.609px;
+  top: 341.603px;
+  z-index: 18;
+}
+
+.form-control:active {
+  border: none;
+}
+
+
+
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-color: transparent !important;
+  outline-width: 0 !important;
+  outline-style: none !important;
+  box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+}
